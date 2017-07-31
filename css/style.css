@@ -1,0 +1,278 @@
+@font-face {
+    font-family: khairul;
+    src: url(../fonts/Futura-Bold.woff);
+}
+body{
+
+}
+.mainbody{
+    position: relative
+}
+.imgpost{
+    position: relative;
+    top: -230px;
+}
+
+.navbar-default {
+
+    -webkit-box-shadow: inset 0 0px 0 rgba(255,255,255,.15),0 0px 0px rgba(0,0,0,.075);
+    box-shadow: inset 0 0px 0 rgba(255,255,255,.15),0 -
+        0 px 0px rgba(0,0,0,.075); 
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px 5px 15px;
+}
+.navbar-collapse {
+    -webkit-box-shadow: inset 0 0px 0 rgba(255, 255, 255, .1);
+    box-shadow: inset 0 0px 0 rgba(255, 255, 255, .1);
+}
+.navbar ul li a{
+    color:black !important;
+
+}
+.navbar ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
+.heading{
+    background-color: #64af97!important;
+}
+
+.panelbg{
+    background: #64af97!important;
+}
+.panelbg h5{
+    font-family: khairul;
+    font-size: medium;
+}
+.nv{
+    background-color: #64af97!important;
+}
+
+.content {
+    padding: 230px 0 0px 0 ;
+
+}
+.font_size{
+    font-size: 70px;
+    font-family: khairul;
+}
+.content p{
+    color: #d2dedc;
+    font-family: khairul;
+    line-height: 20px;
+}
+.companybg{
+    background: #4d8a78;
+}
+.companybg h1{
+    margin-top: 30px;
+    line-height: 35px;
+}
+.companybg span{
+    letter-spacing: 7px;
+    margin-bottom: 20px!important;
+}
+
+
+
+
+.content span{
+    font-size: 40px;
+    font-weight:  bolder;
+}
+.mrg_tp_5{
+    margin-top: 5px;
+}
+.mrg_tp_10{
+    margin-top: 10px;
+}
+.mrg_tp_20{
+    margin-top: 20px;
+}
+.mrg_tp_40{
+    margin-top: 40px;
+}
+.mrg_bt_5{
+    margin-bottom: 5px;
+}
+.mrg_bt_10{
+    margin-bottom: 10px;
+}
+.mrg_bt_20{
+    margin-bottom: 20px;
+}
+.mrg_bt_40{
+    margin-bottom: 40px;
+}
+.pd_tp_5{
+    padding-top: 5px;
+}
+.pd_tp_10{
+    padding-top: 20px;
+}
+.pd_tp_20{
+    padding-top: 20px;
+}
+.pd_tp_40{
+    padding-top: 40px;
+}
+.pd_bt_5{
+    padding-bottom:  5px;
+}
+.pd_bt_10{
+    padding-bottom:  10px;
+}
+.pd_bt_20{
+    padding-bottom:  20px;
+}
+.pd_bt_40{
+    padding-bottom: 40px;
+}
+.k{
+    border-bottom: 3px solid gray;
+}
+
+.srcicetxt{
+    font-family: khairul;
+    font-size: 65px!important;
+    color: #5a5b5f!important;
+}
+.panel h5
+{
+    font-family: khairul;
+}
+.pb{
+    font-family: khairul;
+    font-size: 9px;
+    color: #5a5b5f!important;
+    font-weight: normal;
+    margin-top: 3px;
+}
+
+.add{
+    font-family: khairul;
+    font-size: 18px;
+    color: #5a5b5f!important;
+    word-spacing: 0px;
+}
+.subscribe{
+    font-family: khairul;
+    margin-top: 5px;
+    font-weight: bolder;
+    font-size: 13px;
+}
+.service ul li a:hover{
+    background: #64af97;
+    text-decoration: none;
+}
+.panel-heading {
+    padding: 1px 15px;
+
+}
+.panel {
+    margin-bottom: 5px; 
+}
+.panel-body {
+    padding: 0px;
+    font-weight: bold;
+    text-align: justify;
+}
+.service ul li{
+    border-right: 2px solid gray;
+    margin: 0;
+    padding: 0;
+    margin-top: 2px;
+    height: 20px;
+}
+.service ul li a{
+    color: gray;
+    padding: 12px 12px;
+    margin-left: -4px;
+    font-family: khairul;
+    font-size: medium;
+}
+.service li:last-child {
+    border-right: none;
+}
+
+
+
+.btn_bg{
+    background: gray;
+}
+.text-white{
+    color: white!important;
+}
+.bodyp a{
+    color: white;
+}
+.contact p{
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: khairul;
+    padding-left: 13px;
+}
+
+.contact img{
+    width: 45px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 580px) {
+    .nav > li:first-child a {
+        margin-top:  90px;
+    }
+    .imgpost img{
+        padding-top: 240px;
+
+    }
+    .service ul li{
+        margin: 10px 0;
+    }
+    .service ul li a{
+        padding: 10px 20px;
+        color: #5a5b5f!important;
+    }
+    .align h1{
+        text-align: center;
+    }
+    .bodycontent p{
+        padding: 0 18px;
+    }
+    .navbar ul li a{
+        width: 40%;
+    }
+    .service ul li{
+        width: 100%;
+        margin-top: 3px;
+        color: #5a5b5f!important;
+    }
+    .content{
+        padding: 120px 0 40px 0;
+    }
+
+    .contact{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .contact p{
+        font-family: khairul;
+        font-size: 14px!important;
+    }
+    .contact img {
+        width: 60%!important;
+        padding-bottom: 10px;
+    }
+    .service ul li{
+        min-width: 20%;
+    }
+}
